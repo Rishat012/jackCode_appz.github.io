@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <title>Appz</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <div class="header__img-content">
+            <img src="/img/hand.png" alt="" class="header__mobile-img">
+          </div>
+          <div class="header__text-content">
+            <h1 class="header__text-title">Appz</h1>
+            <span class="header__text-body">The amazing template to show off
+              your new iPhone App!</span>
+            <a href="#" class="header__button download-btn"><span class="download-btn__button-text">Download</span></a>
+          </div>
+        </div>
+    </header>
+    <div class="slider ">
+      <div class="slider__last-slide"></div>
+      <div class="swiper-container slider__container">
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slider__slide slide">
+              <div class="slide__img">
+                <img src="./img/slider_1.jpg" alt="">
+              </div>
+              <div class="slide__text-body">
+                <span class="slide__text-title"><b>Dashboard</b> View</span>
+                <span class="slide__text">Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__slide slide">
+              <div class="slide__img">
+                <img src="./img/slider_2.jpg" alt="">
+              </div>
+              <div class="slide__text-body">
+                <span class="slide__text-title"><b>Easy To</b> Use</span>
+                <span class="slide__text">Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__slide slide">
+              <div class="slide__img">
+                <img src="./img/slider_3.jpg" alt="">
+              </div>
+              <div class="slide__text-body">
+                <span class="slide__text-title"><b>Amazing</b> Design</span>
+                <span class="slide__text">Lorem ipsum dolor sit amet, omnis euismod indoctum mel.</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__slide slide">
+              <div class="slide__img">
+                <img src="./img/slider_4.jpg" alt="">
+              </div>
+              <div class="slide__text-body">
+                <span class="slide__text-title"><b>Dashboard</b> View</span>
+                <span class="slide__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga nihil
+                  dignissimos odit labore nostrum. Explicabo, facere officiis. Deleniti quae fuga officiis excepturi?
+                  Maxime, eligendi aperiam suscipit molestiae vitae dicta pariatur.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="slider__next-slide"></div>
+    </div>
+
+    <div class="action">
+      <div class="action__container">
+        <div class="action__text-before">Get your <b>free</b></div>
+        <a href="#" class="action__button download-btn download-btn--bigText"><span
+            class="download-btn__button-text">Download</span></a>
+        <div class="action__text-after">of <span>Appz</span> today!</div>
+      </div>
+    </div>
+
+    <article class="article">
+      <div class="article__container">
+        <div class="article__block-text">
+          <div class="article__text-body text">
+            <div class="text__header"><b>Clean.</b> Minimalistic Design.</div>
+            <div class="text__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae
+              nulla molestie eu commodo nulla dapibus. Donec id sollicitudin urna. Integer at dui ac leo fermentum
+              varius eleifend ut libero. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus.</div>
+            <div class="text__header"><b>Simple.</b> So Easy To Use.</div>
+            <div class="text__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae
+              nulla molestie eu commodo nulla dapibus. Donec id sollicitudin urna. Integer at dui ac leo fermentum
+              varius eleifend ut libero. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus.</div>
+            <div class="text__header"><b>Slider.</b> View All Your Photos.</div>
+            <div class="text__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae
+              nulla molestie eu commodo nulla dapibus. Donec id sollicitudin urna. Integer at dui ac leo fermentum
+              varius eleifend ut libero. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus.</div>
+            <div class="text__header"><b>Dashboard.</b> See Whats Going On.</div>
+            <div class="text__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae
+              nulla molestie eu commodo nulla dapibus. Donec id sollicitudin urna. Integer at dui ac leo fermentum
+              varius eleifend ut libero. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus.</div>
+          </div>
+        </div>
+        <div class="article__block-img">
+          <img src="/img/graphic.png" alt="">
+        </div>
+      </div>
+    </article>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__rights">&copy; 2012 <span class="footer__color-text">Appz.</span> All Rights Reserved.</div>
+        <div class="footer__created">Theme Created By <span class="footer__color-text">Best PSD Freebies</span></div>
+      </div>
+    </footer>
+  </div>
+  </div>
+  <script src="/js/libs/swiper.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      loop: true,
+      initialSlide: 0,
+      freeMode: true,
+      slidesPerGroup: 1,
+      autoHeight: true,
+      // spaceBetween: 20,
+      navigation: {
+        nextEl: '.slider__next-slide',
+        prevEl: '.slider__last-slide',
+      },
+      breakpoints: {
+        // when window width is >= 320px
+        1140: {
+          slidesPerView: 4,
+        },
+        790: {
+          slidesPerView: 3,
+        },
+        570: {
+          slidesPerView: 2,
+        },
+      }
+
+    });
+  </script>
+</body>
+
+</html>
