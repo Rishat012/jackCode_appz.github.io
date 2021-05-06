@@ -126,7 +126,7 @@ h6 {
 }
 
 .header {
-  background: white url(../img/city.jpg) no-repeat;
+  background: white url("../img/city.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -269,10 +269,6 @@ h6 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  /* &__last-slide,
-   &__next-slide {
-      flex: 1 1 50px;
-   }*/
 }
 
 .slider__container {
@@ -310,21 +306,21 @@ h6 {
 }
 
 .slider__last-slide {
-  background: white url(../img/left.png) no-repeat 0 46px;
+  background: white url("../img/left.png") no-repeat 0 46px;
 }
 
 .slider__last-slide:hover {
-  background-image: url(../img/left_active.png);
+  background-image: url("../img/left_active.png");
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
 
 .slider__next-slide {
-  background: white url(../img/right.png) no-repeat 0 46px;
+  background: white url("../img/right.png") no-repeat 0 46px;
 }
 
 .slider__next-slide:hover {
-  background-image: url(../img/right_active.png);
+  background-image: url("../img/right_active.png");
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
